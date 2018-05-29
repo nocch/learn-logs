@@ -81,7 +81,40 @@ typeof function(){} // "function"  (2)  -  функции не являются 
 
 
 
+/* -------------- */
+29 мая
+/* -------------- */
+https://jsfiddle.net/#&togetherjs=FLruv0Ged6
+ <html>
+  <head><meta charset="utf-8">
+  <style>
+  rohtml {
+  color: black;
+}
+.fly {
+  display: block;
+  width:120px;
+  height:60px;
+  background: red;
+}
+  </style>
+  </head>
+  <body>
+    <div class="fly">
+    ура заработало
+    </div>
+    <footer>something</footer>
+  </body>
+</html>
+<script>
+// Есть метод getElementsByClassName (с буквой "s" в конце слова Element)
+// Метод возвращает коллекцию элементов. ПОэтому нужно обратиться к первому
+document.getElementsByClassName("fly")[0].style.color = "blue";
+</script>
 
+-----------
+   + верстка 2-х страниц
+-----------
 
 
 
